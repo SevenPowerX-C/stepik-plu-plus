@@ -1,12 +1,12 @@
 #include <iostream>
 
-using namespace std;
+
 
 int main() {
     int belki = 0;
     int oreshki = 0;
-    cin>>belki >> oreshki;
+    std::cin>>belki >> oreshki;
 
-    cout << oreshki / belki;
+    std::cout << oreshki % belki;
     return 0;
 }
