@@ -5,6 +5,6 @@
 int main() {
     unsigned int numberN = 0;
     std::cin >> numberN;
-    std::cout << numberN / 100 + numberN % 100/10 + numberN % 10;
+    std::cout << numberN / 2*2 + 2;
     return 0;
 }
