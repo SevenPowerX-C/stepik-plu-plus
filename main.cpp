@@ -3,8 +3,8 @@
 
 
 int main() {
-    int numberN;
+    unsigned int numberN;
     std::cin >> numberN;
-    std::cout << numberN /10;
+    std::cout << numberN % 100 /10;
     return 0;
 }
