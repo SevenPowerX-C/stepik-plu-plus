@@ -3,10 +3,9 @@
 
 
 int main() {
-    int belki = 0;
-    int oreshki = 0;
-    std::cin>>belki >> oreshki;
+    int numberN;
+    std::cin >> numberN;
 
-    std::cout << oreshki % belki;
+    std::cout << numberN %10;
     return 0;
 }
