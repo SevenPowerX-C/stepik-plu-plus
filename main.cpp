@@ -3,11 +3,10 @@
 using namespace std;
 
 int main() {
-    cout << "Hello, World!" << endl;
+    int belki = 0;
+    int oreshki = 0;
+    cin>>belki >> oreshki;
 
-    int a, b;
-    cin >> a >> b;
-    cout << a << " + " << +b << " = " << a + b << endl;
-    cout << a << " - " << +b << " = " << a - b << endl;
+    cout << oreshki / belki;
     return 0;
 }
